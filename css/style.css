@@ -1,0 +1,373 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    
+    
+
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.main_container {
+    display: flex;
+    text-align: center;
+    height: 80px;
+    
+}
+.head_line  {
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+.links_header {
+    
+    display: flex;
+    margin-left: 93px;
+    
+    
+    
+
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    background-color: #ffffff ;
+
+}
+
+.word_web {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 2em;
+    letter-spacing: 0.03em
+    
+}
+
+.word_studio {
+    color: black;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 2em;
+    letter-spacing: 0.03em
+}
+
+.nav:hover,.nav:focus {
+    
+    color: #2196F3;
+    
+}
+
+.nav {
+    color: black;
+    
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    
+}
+
+.contacts_section {
+    color: #757575;
+    justify-content: space-between;
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    margin-left: auto;
+    text-align: right;
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 0.02em
+    
+    
+    
+    
+    
+    
+    
+   
+}
+
+.contacts_section:hover,.contacts_section:focus {
+    color: #2196F3;
+}
+
+
+
+.maintext {
+    color: #ffffff;
+    
+    background-color: #2F303A;
+    
+    text-align: center;
+
+    font-size: 44px;
+
+    display: flex;
+    justify-content: center;
+    margin-right: 252px;
+    padding-top: 200px;
+    margin-left: 252px;
+    
+    
+    
+    
+    
+    
+
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    
+    }
+.maintext_list {
+    color: 
+    #757575;
+}
+
+
+.button {
+    cursor: pointer;
+    color: #ffffff; 
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 2.5em;
+    
+    text-align: center;
+    cursor: pointer;
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+    
+   
+}
+.shapka {
+    overflow: hidden;
+    list-style: none;
+}
+
+.mainbar {
+    background-color: #2F303A;
+    width: 1200px;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
+
+.pros_text {
+display: flex;
+text-align: center;
+justify-content: space-between;
+
+
+}
+
+.maintext_pros1 {
+    color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+}
+
+.mainpool_text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.imgstuff {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    
+   
+}
+
+.our_team {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.team_stuff {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.reg_cust {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.regular_customers {
+    width: 1200px;
+}
+
+
+
+.info_table {
+    background-color: #2F303A;
+    width: 1200px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+}
+
+.word_studiof {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 2em;
+    
+}
+
+.address {
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 60px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+   
+}
+.contacts_section_footer {
+    margin-left: 100px;
+    color: #757575;
+    display: flex;
+    text-decoration: none;
+    margin-top: 9px;
+    
+   
+}
+
+.contacts_section2:hover,.contacts_section2:focus {
+    color: #2196F3;
+}
+.nav_footer {
+    margin-left: 135px;
+    color: black;
+    text-decoration: none;
+    margin-top: 60px;
+    
+}
+
+
+
+.buttons_portfolio {
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #F5F4FA;
+    border-radius: 10px;
+    font-family: Roboto;
+    
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 1200px;
+    border: black;
+    
+    
+}
+
+.portfolio {
+    width: 1200px;
+}
+
+.info_table {
+    width: 1200px;
+}
+
+.middlebar_section {
+    width: 1200px;
+}
+ .pros_text {
+    list-style: none;
+ }
+
+ .footer_list {
+    list-style: none;
+ }
+
+ .icon {
+    display: inline-block;
+    justify-content: space-between;
+    width: 32px;
+    height: 32px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .join {
+      color: #ffffff;
+      
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        margin-left: 470px;
+  }
+
+  .icons_team_stuff {
+      color: #757575;
+      height: 10px;
+      width: 10px;
+  }
