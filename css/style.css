@@ -961,7 +961,7 @@ margin: -15px;
 
 .portfolio-cards:hover, .pp-cardshover:hover {
     transform: translateY(0);
-    transition: color 250ms linear;
+    
 }
 
 .cards-rel{
