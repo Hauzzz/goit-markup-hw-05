@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5, h6 {
     --svg-grey: rgba(175, 177, 184, 1);
     --contacts-grey: rgba(172, 172, 176, 1);
     --footer-bg: #44454E;
+    --ghost-bc: rgba(33, 150, 243, 0.9);
+    --ghost-grey:rgba(47, 48, 58, 0.8);
   }
 
 
@@ -81,6 +83,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     height: 80px;
     border-bottom: 1px solid var(--h_b_color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .head_line  {
     
@@ -139,11 +143,23 @@ ul {
 .nav:hover,.nav:focus {
     
     color: var(--blue-color);
-    
+    transition: color 250ms linear;
 }
 
 .current {
     color: var(--blue-color);
+    position: relative;
+    
+}
+
+.current::after {
+    content: '';
+    width: 100%;
+    border-radius: 2px;
+    position: absolute;
+    background-color: var(--blue-color);
+    left: 0;
+    bottom: -32px;
 }
 
 .current-button {
@@ -232,6 +248,7 @@ a{text-decoration: none;}
 
 .contacts_section:hover,.contacts_section:focus {
     color: var(--blue-color);
+    transition: color 250ms linear;
 }
 
 
@@ -314,6 +331,7 @@ a{text-decoration: none;}
 }
 .hero_btn :hover, .hero_btn :focus {
     color: var(--blue-color);
+    transition: color 250ms linear;
 }
 .shapka {
     overflow: hidden;
@@ -460,11 +478,13 @@ margin: -15px;
 .contactsicon-envelope :hover .contactsicon-envelope :focus {
     fill: var(--blue-color);
     color: var(--blue-color);
+    transition: color 250ms linear;
 }
 
 .contactsicon-phone :hover .contactsicon-envelope :focus {
     fill: var(--blue-color);
     color: var(--blue-color);
+    transition: color 250ms linear;
 }
 
 
@@ -474,6 +494,32 @@ margin: -15px;
 .main_pool {
     padding-bottom: 94px;
 }
+
+.pooltext{
+    position: relative;
+}
+
+.p-pool {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--ghost-grey);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 82px;
+    padding-right: 82px;
+    width: 100%;
+}
+
 .imgstuff {
     display: flex;
     margin: -15px;
@@ -548,6 +594,7 @@ margin: -15px;
 
     color: var(--white-color);
     background-color: var(--blue-color);
+    transition: background-color 250ms linear;
 }
 
 
@@ -585,6 +632,7 @@ margin: -15px;
     color: var(--blue-color);
     fill: var(--blue-color);
     border-color: var(--blue-color);
+    transition: color 250ms linear;
 }
 
 .clientssvg-class {
@@ -628,8 +676,9 @@ margin: -15px;
    
 }
 
-.contacts_section_footer:hover,.contacts_section2:focus {
+.contacts_section_footer:hover,.contacts_section_footer:focus {
     color: var(--blue-color);
+    transition: color 250ms linear;
 }
 
 
@@ -690,6 +739,7 @@ margin: -15px;
 
 .afooter-icons:hover, .afooter-icons:focus {
     background-color: var(--blue-color);
+    transition: background-color 250ms linear;
     
 }
 
@@ -738,6 +788,8 @@ margin: -15px;
 
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
+
+    transition: background-color 250ms linear;
 
 }
 
@@ -806,6 +858,8 @@ margin: -15px;
   }
   .icon-envelope :focus, .icon-envelope:hover {
       fill: var(--blue-color);
+
+      transition: color 250ms linear;
   }
 
   .icon-smartphone-1 {
@@ -815,6 +869,8 @@ margin: -15px;
 
   .icon-smartphone-1 :focus, .icon-smartphone-1 :hover {
       fill: var(--blue-color);
+
+      transition: color 250ms linear;
   }
 
   .join {
@@ -846,17 +902,21 @@ margin: -15px;
       padding-left: 24px;
       padding-right: 24px;
       padding-bottom: 20px;
+      
 
   }
 
   .port-cards:focus, .port-cards:hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: 250ms;
   }
   .port-cards {
       display: block;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       box-shadow: none;
       border: 1px solid var(--slight-grey_color);
+      
+      
   }
 
 
@@ -866,6 +926,48 @@ margin: -15px;
     display: flex;
     margin-top: 34px;
     margin-left: 30px;
+    position: relative;
+    height: 100%;
+    
+    
+}
+
+
+
+
+.pp-cardshover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    background-color: var(--ghost-bc);
+    color: var(--white-color);
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms linear;
+    
+    
+    
+}
+
+.portfolio-cards:hover, .pp-cardshover:hover {
+    transform: translateY(0);
+    transition: color 250ms linear;
+}
+
+.cards-rel{
+    position: relative;
+    overflow: hidden;
+    
 }
 
 .maintext_list {
