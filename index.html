@@ -60,7 +60,7 @@
                         
                         <!--button-->
 
-                        <button type="button" class="hero_btn">Заказать услугу</button>
+                        <button type="button" class="hero_btn" data-modal-open>Заказать услугу</button>
                 </div>
               
             </section>
@@ -247,6 +247,13 @@
 
     </footer>
 
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-close-btn" data-modal-close><svg class="close-icon"><use href="./images/close.svg#icon-close"></use></svg></button>
+            </div>
+        </div>
+
+        <script src="./js/modal.js"></script>
 
 
 
