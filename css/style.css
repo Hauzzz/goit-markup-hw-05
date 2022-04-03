@@ -1065,7 +1065,7 @@ margin: -15px;
 .close-icon{
     width: 18px;
     height: 18px;
-
+    fill: var(--black-color);
 }
 
 
