@@ -161,6 +161,8 @@ ul {
     background-color: var(--blue-color);
     left: 0;
     bottom: -32px;
+    display: block;
+    height: 4px;
 }
 
 .current-button {
@@ -920,6 +922,11 @@ margin: -15px;
       
   }
 
+  .port-cards:focus .pp-cardshover,
+  .port-cards:hover .pp-cardshover{
+    transform: translateY(0);
+    transition:  250ms ;
+  }
 
 
 
@@ -1044,6 +1051,9 @@ margin: -15px;
     position: absolute;
     top: 8px;
     right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .is-hidden {
@@ -1053,11 +1063,9 @@ margin: -15px;
 }
 
 .close-icon{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 8px;
-    right: 8px;
+    width: 18px;
+    height: 18px;
+
 }
 
 
