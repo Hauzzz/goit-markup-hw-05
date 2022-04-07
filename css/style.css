@@ -210,7 +210,7 @@ ul {
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -232,7 +232,7 @@ a{text-decoration: none;}
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
     
@@ -472,14 +472,14 @@ margin: -15px;
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contactsicon-phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
     fill: currentColor;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contactsicon-envelope :hover .contactsicon-envelope :focus {
@@ -593,7 +593,7 @@ margin: -15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .ats-icons:hover,.ats-icons:focus {
@@ -630,7 +630,7 @@ margin: -15px;
     height: 92px;
     justify-content: center;
     color: var(--svg-grey);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -683,7 +683,7 @@ margin: -15px;
     color: var(--contacts-grey);
     display: flex;
     text-decoration: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
    
 }
@@ -722,7 +722,7 @@ margin: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons {
@@ -779,7 +779,7 @@ margin: -15px;
     cursor: pointer;
     border-radius: 4px;
     cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     .buttons_portfolio{
     display: flex;
@@ -851,9 +851,6 @@ margin: -15px;
     padding-top: 20px;
  }
 
- .footerlist-link{
-    
- }
 
  .eclipse {
     left: 0%;
@@ -879,7 +876,7 @@ margin: -15px;
   .icon-envelope{
       fill: var(--grey-color);
       margin-left: 10px;
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .icon-envelope :focus, .icon-envelope:hover {
       fill: var(--blue-color);
@@ -890,7 +887,7 @@ margin: -15px;
   .icon-smartphone-1 {
       fill: var(--grey-color);
       margin-left: 10px;
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .icon-smartphone-1 :focus, .icon-smartphone-1 :hover {
@@ -941,7 +938,7 @@ margin: -15px;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       box-shadow: none;
       border: 1px solid var(--slight-grey_color);
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
       
   }
 
