@@ -472,14 +472,14 @@ margin: -15px;
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .contactsicon-phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
     fill: currentColor;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .contactsicon-envelope :hover .contactsicon-envelope :focus {
@@ -779,7 +779,7 @@ margin: -15px;
     cursor: pointer;
     border-radius: 4px;
     cursor: pointer;
-    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     .buttons_portfolio{
     display: flex;
@@ -801,10 +801,6 @@ margin: -15px;
 .portfolio_button:hover, .portfolio_button:focus {
     background-color: var(--blue-color);
     color: var(--white-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
-
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 
@@ -1004,6 +1000,7 @@ margin: -15px;
     font-size: 18px;
     line-height: 2.5;
     letter-spacing: 0.06em;
+    color: var(--black-color);
 }
 
 .maintext_info {
@@ -1073,6 +1070,7 @@ margin: -15px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn{
